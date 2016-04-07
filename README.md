@@ -6,5 +6,5 @@ Decision tree algorithm is a supervised learning algorithm. We first construct t
 
 The disadvantage of decision tree algorithm is that decision trees overfit when they have too much depth, and make overly complex rules that match the training data, but aren't able to generalize well to new data. A good way to reduce decision tree overfitting is random forests. Therefore, we will also use random forests to solve this problem later in the Random-Forests-Income-Prediction Repository.
 
-Although we can use Scikit-learn, the library inside Python to solve this problem quite straightforward, we will explore each step in the process of constructing a decision tree and use it to predict an outcome, including computing the information gain for each feature in our random sample, and pick the one with the highest information gain to split on.
+Although we can use Scikit-learn, the library inside Python to solve this problem quite straightforward, we will explore each step in the process of constructing a decision tree and using it to predict an outcome, including computing the information gain for each feature in our random sample, and picking the one with the highest information gain to split on.
 
