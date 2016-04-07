@@ -5,3 +5,6 @@ We'll look at the individual income data from cencus. It contains information ab
 Decision tree algorithm is a supervised learning algorithm. We first construct the tree with historical data and then use it to predict on new data. The reason why we choose decision tree algorithm is that it can pick up the nonlinear relationship between variables in data set that linear regression cannot. 
 
 The disadvantage of decision tree algorithm is that decision trees overfit when they have too much depth, and make overly complex rules that match the training data, but aren't able to generalize well to new data. A good way to reduce decision tree overfitting is random forests. Therefore, we will also use random forests to solve this problem later in the Random-Forests-Income-Prediction Repository.
+
+Although we can use Scikit-learn, the library inside Python to solve this problem quite straightforward, we will explore each step in the process of constructing a decision tree and use it to predict an outcome, including computing the information gain for each feature in our random sample, and pick the one with the highest information gain to split on.
+
